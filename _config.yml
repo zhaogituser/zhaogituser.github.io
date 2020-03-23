@@ -20,7 +20,7 @@ RSS: false
 #zhihu_username:
 github_username: zhaogituser
 #facebook_username:
-#jianshu_username:
+jianshu_username: javabro
 #twitter_username:   qiubaiying
 
 # Build settings
@@ -78,8 +78,8 @@ service-worker: true
 # Friends
 friends:
   [
-    { title: "WY", href: "http://zhengwuyang.com" },
-    { title: "简书·BY", href: "http://www.jianshu.com/u/e71990ada2fd" },
+    { title: "QQ", href: "http://qq.com" },
+    { title: "简书·BY", href: "https://www.jianshu.com/u/e71990ada2fd" },
     { title: "Apple", href: "https://apple.com" },
     { title: "Apple Developer", href: "https://developer.apple.com/" },
   ]
