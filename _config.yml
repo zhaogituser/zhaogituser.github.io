@@ -20,7 +20,7 @@ RSS: false
 #zhihu_username:
 github_username: zhaogituser
 #facebook_username:
-jianshu_username: javabro
+jianshu_username: e71990ada2fd
 #twitter_username:   qiubaiying
 
 # Build settings
@@ -50,8 +50,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4 #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d #生成的clientSecret
+  clientID: 8ad153efee6c955bc19d #生成的clientID
+  clientSecret: 9a9a7f2e15ab581daa335897d4678b1a629e4fed #生成的clientSecret
   repo: zhaogituser.github.io #仓库名称
   owner: zhaogituser #github用户名
   admin: zhaogituser
