@@ -80,5 +80,5 @@ tags:
       return new JedisConnectionFactory(getStandaloneConfig(), clientConfiguration);
   }
 ```
-## **记录 1**
+## **说明 **
 学习spring boot配置时得运用，以上代码来自官网源码。其他配置看參考[spring](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc)
