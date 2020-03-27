@@ -26,13 +26,13 @@
 
 ```
 # Site settings
-title: jrbo Blog                    # 你的博客网站标题
-SEOTitle: jbro的博客 | jbro Blog		# SEO 标题
-description: "come on"	   	   # 随便说点，描述一下
+title:         Blog                       # 你的博客网站标题
+SEOTitle:  jbro的博客 | jbro Blog         # SEO 标题
+description: "come on"	   	             # 描述
 
 # SNS settings
-github_username: zhaogituser     # 你的github账号
-jianshu_username: f1daaf1e2a0b  # 你的简书ID。
+github_username:    # 你的github账号名称
+jianshu_username:   # 你的简书ID。访问个人主页获取
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -49,15 +49,14 @@ yaml 头文件长这样:
 ```
 ---
 layout:     post
-title:      定时器 你真的会使用吗？
-subtitle:   iOS定时器详解
+title:      java web
+subtitle:   redis
 date:       2016-12-13
-author:     BY
+author:     jbro
 header-img: img/post-bg-ios9-web.jpg
 catalog: 	 true
 tags:
     - iOS
-    - 定时器
 ---
 
 ```
@@ -158,7 +157,7 @@ iframe 在不同的设备中，将会自动的调整大小。保留内边距是�
 
 优点：国际比较流行，界面也很大气、简洁，如果有人评论，还能实时通知，直接回复通知的邮件就行了；
 
-缺点：评论必须要去注册一个 disqus 账号，分享一般只有 Facebook 和 Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://brucezhaor.github.io/about.html) 最下面就可以看到。
+缺点：评论必须要去注册一个 disqus 账号，分享一般只有 Facebook 和 Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://zhaogituser.github.io/about) 最下面就可以看到。
 
 > Node：有很多人反映 Disqus 插件加载不出来，可能墙又架高了，有条件的话翻个墙就好了~
 
@@ -171,7 +170,7 @@ iframe 在不同的设备中，将会自动的调整大小。保留内边距是�
 ```
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: qiubaiying
+disqus_username: zhaogituser
 ```
 
 #### Gitalk
@@ -182,7 +181,19 @@ disqus_username: qiubaiying
 
 **使用：**
 
-参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://qiubaiying.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
+登入[github官网](https://github.com/),头像setting => Developer settings => OAuth Apps,点击**new OAuth App**，根据提示完成创建。
+```
+# Gitalk
+gitalk:
+  enable: true                    #是否开启Gitalk评论
+  clientID:                       #生成的clientID
+  clientSecret:                   #生成的clientSecret
+  repo: zhaogituser.github.io     #仓库名称
+  owner: zhaogituser              #github用户名
+  admin: zhaogituser
+  distractionFreeMode: true       #是否启用类似FB的阴影遮罩
+
+```
 
 ### Analytics
 
@@ -193,8 +204,8 @@ disqus_username: qiubaiying
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+ga_track_id: 'UA-49627206-1' # 你用Google账号去注册一个就会给你一个这样的id
+ga_domain: huangxuan.me		   # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
 ```
 
 ### Customization
@@ -215,7 +226,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ### SEO Title
 
-我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“柏荧的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
+我的博客标题是 **“ Blog”** 但是我想要在搜索的时候显示 **“博客 |  Blog”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
@@ -244,4 +255,4 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ## License
 
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
+遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/zhaogituser/zhaogituser.github.io/blob/master/LICENSE)。
