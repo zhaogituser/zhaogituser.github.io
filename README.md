@@ -1,5 +1,6 @@
 ## 使用
-
+- 博客访问
+[二维码](https://raw.githubusercontent.com/zhaogituser/zhaogituser.github.io/master/img/qrcode.jpg)
 - 开始
   _ [环境](#环境)
   _ [开始](#开始) \* [撰写博文](#撰写博文)
