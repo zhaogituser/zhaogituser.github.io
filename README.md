@@ -1,6 +1,7 @@
 ## 使用
-- 博客访问
-[二维码](https://raw.githubusercontent.com/zhaogituser/zhaogituser.github.io/master/img/qrcode.jpg)
+- 访问途径
+![](https://raw.githubusercontent.com/zhaogituser/zhaogituser.github.io/master/img/qrcode.jpg)
+[网站](https://zhaogituser.github.io)
 - 开始
   _ [环境](#环境)
   _ [开始](#开始) \* [撰写博文](#撰写博文)
@@ -120,12 +121,12 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 # Friends
 friends: [
     {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        title: "Blog",
+        href: "https://github.io/"
     },
     {
-        title: "Apple",
-        href: "https://apple.com/"
+        title: "QQ",
+        href: "https://qq.com/"
     }
 ]
 ```
