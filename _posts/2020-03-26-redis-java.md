@@ -4,11 +4,11 @@ title:      redis在java中的使用
 subtitle:   redis连接池、连接工厂
 date:       2020-03-26
 author:     jbro
-header-img: img/post-bg-java.jpg
+header-img: img/post-bg-java-black.jpg
 catalog: true
 tags:
     - java
-    - 2020
+    - 2020年
 ---
 
 ## java config redis有关配置如下
