@@ -256,4 +256,4 @@ ga_domain: huangxuan.me		   # 默认的是 auto, 这里我是自定义了的域�
 
 ## License
 
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/zhaogituser/zhaogituser.github.io/blob/master/LICENSE)。
+遵循 Apache 许可证。有关详细,请参阅 [LICENSE](https://github.com/zhaogituser/zhaogituser.github.io/blob/master/LICENSE)。
